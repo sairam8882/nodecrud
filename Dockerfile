@@ -1,6 +1,5 @@
 FROM node:9
-WORKDIR /app/server 
-LABEL maintainer="ITC-Spadelite-Team" 
+WORKDIR /app/server
 RUN npm install -g grunt 
 RUN npm install -g express 
 RUN npm install -g forever 
